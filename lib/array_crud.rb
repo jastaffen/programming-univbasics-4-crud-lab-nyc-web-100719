@@ -8,23 +8,23 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  arr << element
-  arr
+  array << element
+  array
 end
 
 def add_element_to_start_of_array(array, element)
-  arr.unshift(element)
-  arr
+  array.unshift(element)
+  array
 end
 
 def remove_element_from_end_of_array(array)
-  arr.pop
-  arr
+  array.pop
+  array
 end
 
 def remove_element_from_start_of_array(array)
-  arr.shift
-  arr
+  array.shift
+  array
 end
 
 def retrieve_element_from_index(array, index_number)
